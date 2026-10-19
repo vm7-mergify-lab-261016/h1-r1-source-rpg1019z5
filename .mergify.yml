@@ -1,6 +1,6 @@
 merge_protections:
-  - name: Owner approval required
+  - name: attacker author condition
     if:
       - base = h1-r1-protected-rpg1019z5
     success_conditions:
-      - approved-reviews-by = onecursor13-vm7-primary-20261012
+      - author = livastic-vm7-r61donor-261017
